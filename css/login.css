@@ -1,0 +1,90 @@
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(45, 45, 45);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    height: 450px;
+    background: rgb(45, 45, 45);
+}
+body {
+    margin: 0px;
+}
+.form {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(133, 129, 129);
+    background-color: transparent;
+    border-radius: 15px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset{
+    border: 3px solid rgb(133, 129, 129);
+}
+legend {
+    border: 1px solid rgb(133, 129, 129);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(133, 129, 129);
+    font-family: snell RoundHand, cursive, sans-serif;
+}
+.inputBox {
+    position: relative;
+}
+.inputDate {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(178, 68, 68);
+    outline: none;
+    color: rgb(178, 68, 68);
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.inputValue {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(178, 68, 68);
+    outline: none;
+    color: rgb(178, 68, 68);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.inputMsg {
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(178, 68, 68);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.labelLink {
+    position: absolute;
+    left: 35%;
+    color: rgb(133, 129, 129);
+}
+#submit {
+    background-image: linear-gradient(to right, rgb(232, 226, 229), rgb(178, 68, 68));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(133, 129, 129);
+}
