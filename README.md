@@ -2,8 +2,6 @@
 
 # Sobre o projeto
 
-https://servtecconversor.000webhostapp.com/
-
 Servtec-web é uma aplicação full stack para auxiliar na conversao de moedas estrangeiras.
 
 A aplicação consiste em consumir dados de uam api de cotação  e realizar calculos matematicos para as conversões, e depois são listados no aplicaçao web, que que tambem armazenas as infromações em uma base de dados.
