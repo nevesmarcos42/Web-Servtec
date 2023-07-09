@@ -11,11 +11,11 @@
     }
 ?>
 <footer>
-        <form action="" method="post">
-            <div id="bt-footer">
+        <form action="navegação" method="post">
+            <nav id="bt-footer">
                 <input class="btFooter" name="records" type="submit" value="Records">
                 <input class="btFooter" name="logout" type="submit" value="Logout">
-            </div>
+            </nav>
         </form>
     </footer>
 </body>

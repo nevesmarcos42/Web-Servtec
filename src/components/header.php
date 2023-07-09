@@ -47,14 +47,15 @@
         <div id="logo">
             <img src="../../image/moedas.png">
         </div>
-        <form action="" method="post">
-            <div id="bt-header">
+        <form action="navegação" method="post">
+            <nav id="bt-header">
                 <input class="btHeader" name="BTC" type="submit" value="BITCOIN">
                 <input class="btHeader" name="USD" type="submit" value="DOLAR">
                 <input class="btHeader" name="EUR" type="submit" value="EURO">
                 <input class="btHeader" name="ARS" type="submit" value="PESO">
-            </div>
+            </nav>
         </form>
+        
     </header>
     
     
