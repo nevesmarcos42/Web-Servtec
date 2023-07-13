@@ -38,36 +38,20 @@ legend {
 .inputBox {
     position: relative;
 }
-.inputDate {
+.inputDate, .inputValue, .inputMsg {
     background: none;
     border: none;
-    border-bottom: 1px solid rgb(178, 68, 68);
     outline: none;
     color: rgb(178, 68, 68);
     font-size: 15px;
     width: 100%;
     text-align: center;
 }
-.inputValue {
-    background: none;
-    border: none;
+.inputDate, .inputValue {
     border-bottom: 1px solid rgb(178, 68, 68);
-    outline: none;
-    color: rgb(178, 68, 68);
-    font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
-    text-align: center;
 }
-.inputMsg {
-    background: none;
-    border: none;
-    outline: none;
-    color: rgb(178, 68, 68);
-    font-size: 15px;
-    width: 100%;
+.inputValue, .inputMsg {
     letter-spacing: 2px;
-    text-align: center;
 }
 .labelLink {
     position: absolute;
